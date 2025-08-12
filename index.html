@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pay to Unlock Meme</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🔓 Pay to Unlock Meme</h1>
+        <div id="wallet-status">🦊 Connetti MetaMask</div>
+        
+        <div class="panel">
+            <p>Prezzo attuale: <span id="current-price">--</span> ETH</p>
+            <p>Pagamenti effettuati: <span id="payments-count">--</span>/20</p>
+            <button id="unlock-button">Sblocca ora</button>
+        </div>
+
+        <div id="meme-container" class="hidden">
+            <img id="meme-image" src="" alt="Meme sbloccato">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
