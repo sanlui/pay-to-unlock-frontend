@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hidden { display: none; }
+
+#unlock-button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#meme-image {
+    max-width: 100%;
+    margin-top: 20px;
+}
